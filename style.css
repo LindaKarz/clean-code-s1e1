@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -107,7 +107,7 @@ button {
   margin: 0 0 20px;
 }
 
-.new-task {
+.task_new {
   width: 318px;
 }
 
@@ -161,11 +161,11 @@ button {
   display: none;
 }
 
-.edit-mode .input {
+.list__item_edit .input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .label {
+.list__item_edit .label {
   display: none;
 }
